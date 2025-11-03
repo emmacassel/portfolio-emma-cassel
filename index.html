@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emma Cassel | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="profile">
+      <img src="emma.jpg" alt="Photo de Emma Cassel" class="avatar"/>
+      <h1>Emma Cassel</h1>
+      <p class="subtitle">Portfolio Personnel</p>
+      <p class="intro">Je m'appelle Emma Cassel, j'ai 19 ans. </p>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#about">À propos</a></li>
+        <li><a href="#experience">Expériences</a></li>
+        <li><a href="#skills">Compétences</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#cv">CV</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="about">
+      <h2>
+        À propos de moi</h2>
+      <p> Je suis née le 27 octobre 2006. je suis en deuxième année en sicence de l'éducation à l'ileps à cergyJe suis passionnée par l’art depuis toujours. J’aime peindre, dessiner et sculpter, des activités qui me permettent d’exprimer mes émotions et de donner vie à mes idées. Créer, pour moi, c’est une façon de raconter des histoires sans mots, de capturer des instants ou des sensations que les images traduisent mieux que les phrases.
+
+Que ce soit à travers la peinture, le dessin ou la sculpture, j’aime explorer différentes techniques et matières, expérimenter, chercher de nouvelles formes d’expression. L’art occupe une place essentielle dans ma vie<br>
+         
+      </p>
+    </section>
+    <section id="experience">
+      <h2>Expériences</h2>
+      <ul> J'ai eu mon baccalauréat en 2024 en France, une étape marquante dans mon parcours scolaire, et plus particulièrement dans mes spécialités, l'Art et HLP (Humanités, Littérature et Philosophie). Cette année-là, les épreuves étaient particulièrement intenses, mais j'ai su garder ma concentration et mes objectifs en tête.
+        j'ai déja fais de nombreux stages auprès de professeurs des écoles.
+        <li>
+          <strong>Stage en entreprise</strong> – 2024<br>
+          <span class="desc">Découverte du monde professionnel, collaboration et apprentissage.J’ai effectué mon tout premier stage dans une école lorsque j’étais en classe de seconde. Cette première expérience m’a beaucoup marquée : elle m’a permis de découvrir le fonctionnement du milieu scolaire de l’intérieur et de confirmer mon intérêt pour ce domaine. Aujourd’hui, en études supérieures, j’ai la chance de pouvoir faire des stages tout au long de l’année. Cela me permet d’acquérir de l’expérience, de développer mes compétences et de mieux comprendre la réalité du métier que je souhaite exercer plus tard.</span>
+        </li>
+        <!-- Ajoute tes autres expériences ici ! -->
+      </ul>
+    </section>
+    <section id="skills">
+      <h2>Compétences</h2>
+      <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>Communication</li>
+        <li>Créativité</li>
+        <!-- Ajoute tes autres compétences ici -->
+      </ul>
+    </section>
+    <section id="portfolio">
+      <h2>Portfolio / Projets</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Projet 1</h3>
+          <p>Description rapide du projet.</p>
+        </div>
+        <div class="card">
+          <h3>Projet 2</h3>
+          <p>Description rapide du projet.</p>
+        </div>
+        <!-- Ajoute des projets ici -->
+      </div>
+    </section>
+    <section id="cv">
+      <h2>Mon CV</h2>
+      <a class="btn-cv" href="cv-emma-cassel.pdf" download>Télécharger mon CV</a>
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <form id="contactForm">
+        <label>Nom :<input type="text" name="name" required></label>
+        <label>Email :<input type="email" name="email" required></label>
+        <label>Message :<textarea name="message" required></textarea></label>
+        <button type="submit">Envoyer</button>
+      </form>
+      <div class="form-message" id="formMessage"></div>
+      <ul class="social">
+        <li><a href="mailto:emma@email.com">Email</a></li>
+        <li><a href="https://linkedin.com/in/emmacassel" target="_blank">LinkedIn</a></li>
+        <!-- Ajoute d’autres liens si besoin -->
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Emma Cassel</p>
+  </footer>
+  <script src="scripts.js"></script>
+</body>
+</html>
